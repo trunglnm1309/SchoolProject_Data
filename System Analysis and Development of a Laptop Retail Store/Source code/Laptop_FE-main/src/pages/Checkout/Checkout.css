@@ -1,0 +1,80 @@
+.payment__form__title{
+    margin:10px 0 10px 16px;
+    font-size: 14px;
+}
+.payment__form--input{
+    width: 80%;
+}
+.payment__form--input__option{
+    padding: 30px;
+}
+.payment__info{
+    padding-bottom: 30px;
+}
+.payment__info-qr{
+    padding-bottom: 5px;
+}
+.btn__payment_contain{
+    margin-top:30px;
+    text-align: center;
+}
+.payment__btn__submit{
+    padding:10px 20px;
+    background-color: #4144ff;
+    outline: none;
+    border: 1px solid #f1f0f1;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 14px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.payment__btn__submit:hover{
+    background-color: blue;
+}
+.payment__form__content{
+    font-size:16px;
+    font-weight: 300;
+}
+
+.payment__form__address{
+    padding:0 10px;
+    margin:10px 0;
+}
+
+.payment__form__address i{
+    font-size: 16px;
+    margin:0 10px;
+}
+.payment__form__address__edit-icon{
+    cursor: pointer;
+
+}
+.payment__form__address__edit-icon:hover{
+    color:blue;
+}
+.payment__form__address__btn{
+    text-align: end;
+    margin-right: 20px;
+}
+.payment__type{
+    display: flex;
+    justify-content: space-between;
+    padding:0 16px;
+}
+.payment__type__child{
+    padding:16px 10px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.payment__type__child:first-child{
+    background-color: blue;
+}
+
+.payment__type__child__main{
+    padding:16px;
+    text-align: justify;
+}
